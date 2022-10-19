@@ -1,0 +1,44 @@
+typogrify (1:2.0.7-2) unstable; urgency=medium
+
+  * Team upload.
+  * Fixed VCS URL (https)
+  * d/control: Set Vcs-* to salsa.debian.org
+  * d/copyright: Fix Format URL to correct one
+  * d/control: Deprecating priority extra as per policy 4.0.1
+  * d/changelog: Remove trailing whitespaces
+  * Convert git repository from git-dpm to gbp layout
+  * Drop Python 2 support.
+
+ -- Ondřej Nový <onovy@debian.org>  Sat, 27 Jul 2019 02:55:28 +0200
+
+typogrify (1:2.0.7-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update package description to match upstream and
+    mention uses outside of Django.
+
+ -- Andrew Starr-Bochicchio <asb@debian.org>  Sun, 05 Oct 2014 12:16:40 -0400
+
+typogrify (1:2.0.4-1) unstable; urgency=medium
+
+  * Move package to DPMT and add myself as an uploader.
+  * New upstream release (Closes: #744978).
+   - New upstream version scheme requires adding an epoch.
+  * Add debian/watch file.
+  * Update homepage.
+  * Build Python 3 package.
+  * Bump Standards-Version to 3.9.5.
+
+ -- Andrew Starr-Bochicchio <asb@debian.org>  Sun, 24 Aug 2014 15:19:19 -0700
+
+typogrify (20111209-2) unstable; urgency=low
+
+  * Build-Depends on python-setuptools (Closes: #652789)
+
+ -- Julien Danjou <acid@debian.org>  Tue, 20 Dec 2011 16:17:12 +0100
+
+typogrify (20111209-1) unstable; urgency=low
+
+  * Initial release (Closes: #649738)
+
+ -- Julien Danjou <acid@debian.org>  Fri, 09 Dec 2011 15:19:43 +0100
